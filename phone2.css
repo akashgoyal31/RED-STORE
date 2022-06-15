@@ -1,0 +1,52 @@
+#home{
+    height: 100%;
+    width: 100%;
+    
+}
+#home::before{
+    height: 100%;
+    width: 100%;
+   
+}
+  .box-home img {
+    padding-bottom: 12rem;
+    height: 4.5rem;
+    width: 13rem;
+  }
+  .box-home p {
+    font-size: 1rem;
+  }
+  .box-home .btn {
+    padding: 0.6rem 0.6rem;
+    font: bold;
+    font-size: 1rem;
+  }
+    
+    
+  .box-home {
+    border: 2px solid violet;
+    padding: 9rem 2rem;
+  }
+.img1 img {
+    height: 15rem;
+  }
+  .box2 h1 {
+    font-size: 2.5rem;
+}
+  .box2 h3 {
+    font-size: 1rem;
+}
+#product {
+    padding: 2rem 2rem;
+  }
+.img {
+    padding: 2rem 1rem;
+}
+.client-item img {
+    padding: 2rem 16rem;
+}
+.client-item img {
+   height: 4rem;
+    width: 13rem;
+    padding: 2rem 5rem;
+}
