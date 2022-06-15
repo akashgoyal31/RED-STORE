@@ -4,6 +4,9 @@
     grid-gap: 4rem;
     padding-bottom: 2rem;
 }
+.box-home {
+    margin-bottom: 17rem;
+  }
 
 #client {
     display: flex;

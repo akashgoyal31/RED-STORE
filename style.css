@@ -13,7 +13,7 @@ height: 65rem; */
 #home::before{
     content: "";
     position: absolute;
-    background: url('home.jpg') no-repeat center center/cover;
+    background: url('home1.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -2;
@@ -22,6 +22,7 @@ height: 65rem; */
 .box-home{
     /* border: 2px solid violet; */
    padding: 3rem 2rem;
+   margin-bottom: 18rem;
 }
 .box-home img{
     padding-bottom: 12rem;
