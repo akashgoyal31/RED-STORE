@@ -1,10 +1,17 @@
+#navbar {
+
+    /* padding: 25px 3px; */
+
+}
+
+
 .box-home {
     padding: 5rem 1rem;
     margin-bottom: 6rem;
   }
 
   .box-home img {
-    padding-bottom: 26.5rem;
+    padding-bottom: 14.5rem;
     height: 4.5rem;
     width: 10rem;
   }

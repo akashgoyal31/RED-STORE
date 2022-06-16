@@ -24,7 +24,9 @@ padding-top: 0px;
     margin: -67px auto;
     padding: -3px 49px;
 }
-
+#product-h2 {
+    margin-top: 16rem;
+}
 
 .section1 {
     display: grid;

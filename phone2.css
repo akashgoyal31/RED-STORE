@@ -22,7 +22,9 @@
     font-size: 1rem;
   }
     
-    
+  #product-h2{
+ margin-top: 15rem;
+}   
   .box-home {
     padding: 9rem 2rem;
     margin-bottom: 10rem;
