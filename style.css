@@ -2,7 +2,73 @@
     margin: 0px 0px;
     padding: 0px 0px;
 }
+#logo {
+    margin: 1px 3px;
+    padding: 12px 30px;
+}
 
+#logo img {
+    height: 47px;
+    width: 166px;
+    border-radius: 10px;
+    padding: 38px 0px;
+  }
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 11px;
+    padding: 25px 7px;
+    width: 100%;
+    z-index: 2;
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgba(99, 98, 98, 0.747);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 2;
+}
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 12px auto;
+    padding: 15px 37px;
+    font-family: "Baloo Bhai 2 script=latin rev=1";
+    position: sticky;
+    top: 0px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 4px;
+    border-radius: 2px;
+    text-decoration: none;
+    margin: auto 1px;
+    font-size: 25px;
+    color: aqua;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+
+}
 #home{
 /* border: 2px solid blue;     */
 /* width: 100%;
@@ -17,12 +83,11 @@ height: 65rem; */
     height: 100%;
     width: 100%;
     z-index: -2;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .box-home{
     /* border: 2px solid violet; */
    padding: 3rem 2rem;
-   margin-bottom: 18rem;
 }
 .box-home img{
     padding-bottom: 12rem;
@@ -173,6 +238,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     /* border: 2px solid green; */
     background-color: white;
+    z-index: -2;
 }
 .clent-item{
     padding: 2rem 2rem ;
@@ -189,6 +255,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
     padding: 2rem 3rem;
     color: white;
+    z-index: -2;
 }
 .section3{
     width: 60%;
@@ -255,21 +322,18 @@ footer{
 }
 
 .days{
-    border: 2px solid red ;
     background-color: rgb(28, 10, 94);
     color: white;
     height: 4rem;
     width: 4.5rem;
 }
 .hour{
-    border: 2px solid red ;
     color: white;
     background-color: rgb(28, 10, 94);
     height: 4rem;
     width: 4.5rem;
 }
 .minute{
-    border: 2px solid red ;
     color: white;
     background-color: rgb(28, 10, 94);
     height: 4rem;
@@ -277,7 +341,6 @@ footer{
     
 }
 .second{
-    border: 2px solid red ;
     background-color: rgb(28, 10, 94);
     height: 4rem;
     width: 4.5rem;

@@ -1,3 +1,31 @@
+#logo {
+    margin: -20px 8px;
+padding-top: 0px;
+}
+
+#logo img {
+    height: 25px;
+    width: 150px;
+    padding: 0px 0px;
+    
+}
+
+#navbar {
+    flex-direction: column;
+    height :23px
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    margin: 62px -24px;
+}
+
+#navbar ul li {
+    margin: -67px auto;
+    padding: -3px 49px;
+}
+
+
 .section1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
