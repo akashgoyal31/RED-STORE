@@ -23,7 +23,7 @@ html {
     position: sticky;
     top: 0px;
     height: 11px;
-    padding: 25px 7px;
+    padding: 25px 6px;
     width: 100%;
     z-index: 2;
 }
@@ -35,14 +35,14 @@ html {
 
 #navbar::before {
     content: "";
-    background-color: rgba(99, 98, 98, 0.747);
+    background-color: rgb(104 94 147);
     position: absolute;
     top: 0px;
     left: 0px;
     height: 100%;
-    width: 100%;
+    width: 99%;
     z-index: -1;
-    opacity: 2;
+    opacity: 0.9;
 }
 
 #navbar ul li {
